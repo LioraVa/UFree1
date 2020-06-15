@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <!-- <activity android:name=".Upload"></activity> -->
-<!--        <activity android:name=".Owner" />-->
+        <activity android:name=".Owner" />
         <activity android:name=".Signup_Form" />
 <!--        <activity android:name=".Login_Form" />-->
 <!--        <activity android:name=".MainActivity" />-->
         <activity android:name=".Upload"/>
         <activity android:name=".MainActivity" />
-        <activity android:name=".Login_Form" />
-        <activity android:name=".Owner" >
+        <activity android:name=".Login_Form" >
+
 
 
 

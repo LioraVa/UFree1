@@ -32,26 +32,26 @@ public class Profile {
         this.phone = phone;
         this.city = city;
         this.address = address;
-        Sunday_start = sunday_start;
-        Sunday_end = sunday_end;
-        Monday_start = monday_start;
-        Monday_end = monday_end;
-        Tuesday_start = tuesday_start;
-        Tuesday_end = tuesday_end;
-        Wednesday_start = wednesday_start;
-        Wednesday_end = wednesday_end;
-        Thursday_start = thursday_start;
-        Thursday_end = thursday_end;
+        this.Sunday_start = sunday_start;
+        this.Sunday_end = sunday_end;
+        this.Monday_start = monday_start;
+        this.Monday_end = monday_end;
+        this.Tuesday_start = tuesday_start;
+        this.Tuesday_end = tuesday_end;
+        this.Wednesday_start = wednesday_start;
+        this.Wednesday_end = wednesday_end;
+        this.Thursday_start = thursday_start;
+        this.Thursday_end = thursday_end;
     }
 
-    public Profile(String di, String name, String filed, String phone, String city, String address) {
-        this.di = di;
-        this.name = name;
-        this.filed = filed;
-        this.phone = phone;
-        this.city = city;
-        this.address = address;
-    }
+//    public Profile(String di, String name, String filed, String phone, String city, String address) {
+//        this.di = di;
+//        this.name = name;
+//        this.filed = filed;
+//        this.phone = phone;
+//        this.city = city;
+//        this.address = address;
+//    }
 
     public Profile(String di, String name, String filed, int profilePic, String phone, String city, String address) {
         this.di = di;
