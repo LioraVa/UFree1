@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Owner">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/tx_busn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Business Name"
+            android:inputType="text"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/tx_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/tx_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/tx_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:ems="10"
+            android:inputType="phone"
+            android:textSize="20sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Spinner
+        android:id="@+id/tx_filed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:entries="@array/filed"
+        android:padding="10dp"
+        android:textSize="30sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TableRow>
+            <TextView
+                android:id="@+id/Sunday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sunday"
+                android:inputType="phone"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/Sunday_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="start time"
+                android:inputType="time"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/Sunday_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="end time"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Monday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:text="Monday"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/Monday_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="start time"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/Monday_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="end time"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:text="Tuesday"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/Tuesday_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="start time"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/Tuesday_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="end time"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:text="Wednesday"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/Wednesday_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="start time"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/Wednesday_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="end time"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Thursday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:text="Thursday"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/Thursday_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="start time"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/Thursday_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="end time"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:textSize="20sp"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/butten_rounded"
+        android:text="Save"
+        android:textColor="#ffff"
+        android:textSize="22sp"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>

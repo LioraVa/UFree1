@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:focusable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:textColorHint="@color/colorAccent"-->
+<!--        android:layout_marginTop="15dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/tx_busn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Business Name"-->
+<!--            android:inputType="text"-->
+<!--            android:textSize="20sp" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:entries="@array/filed"-->
+<!--        android:textSize="20sp" />-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:focusable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:textColorHint="@color/colorAccent"-->
+<!--        android:layout_marginTop="15dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/tx_tel"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="City"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="text"-->
+<!--            android:textSize="20sp"/>-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:focusable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:textColorHint="@color/colorAccent"-->
+<!--        android:layout_marginTop="15dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/tx_city"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Address"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="text"-->
+<!--            android:textSize="20sp"/>-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:focusable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:textColorHint="@color/colorAccent"-->
+<!--        android:layout_marginTop="15dp">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/tx_add"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Phone Number"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="phone"-->
+<!--            android:textSize="20sp"/>-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:background="@drawable/butten_rounded"-->
+<!--        android:text="Save"-->
+<!--        android:textColor="#ffff"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textStyle="bold"></Button>-->
+
+    <ListView
+        android:id="@+id/list_View"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

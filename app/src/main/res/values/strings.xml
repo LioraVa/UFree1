@@ -1,0 +1,13 @@
+<resources>
+    <array name="filed">
+        <item>Hairdressing</item>
+        <item>Cosmetics</item>
+        <item>Personal trainer</item>
+        <item>Baby Star</item>
+
+    </array>
+
+    <string name="app_name">UFree1</string>
+
+
+</resources>
