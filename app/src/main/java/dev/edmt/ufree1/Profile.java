@@ -9,6 +9,41 @@ public class Profile {
     private String city;
     private String address;
 
+    private String Sunday_start;
+    private String Sunday_end;
+
+    private String Monday_start;
+    private String Monday_end;
+
+    private String Tuesday_start;
+    private String Tuesday_end;
+
+    private String Wednesday_start;
+    private String Wednesday_end;
+
+    private String Thursday_start;
+    private String Thursday_end;
+
+    public Profile(String di, String name, String filed, int profilePic, String phone, String city, String address, String sunday_start, String sunday_end, String monday_start, String monday_end, String tuesday_start, String tuesday_end, String wednesday_start, String wednesday_end, String thursday_start, String thursday_end) {
+        this.di = di;
+        this.name = name;
+        this.filed = filed;
+        this.profilePic = profilePic;
+        this.phone = phone;
+        this.city = city;
+        this.address = address;
+        Sunday_start = sunday_start;
+        Sunday_end = sunday_end;
+        Monday_start = monday_start;
+        Monday_end = monday_end;
+        Tuesday_start = tuesday_start;
+        Tuesday_end = tuesday_end;
+        Wednesday_start = wednesday_start;
+        Wednesday_end = wednesday_end;
+        Thursday_start = thursday_start;
+        Thursday_end = thursday_end;
+    }
+
     public Profile(String di, String name, String filed, String phone, String city, String address) {
         this.di = di;
         this.name = name;

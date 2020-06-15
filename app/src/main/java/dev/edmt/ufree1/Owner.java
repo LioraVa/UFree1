@@ -65,8 +65,18 @@ public class Owner extends AppCompatActivity {
                 String cty = city.getText().toString().trim();
                 String adrs = add.getText().toString().trim();
                 String fld = filed.getSelectedItem().toString().trim();
-//                String da1_s = d1_s.getText().toString().trim();
-//                String da1_e = d1_e.getText().toString().trim();
+
+
+                String da1_s = d1_s.getText().toString().trim();
+                String da1_e = d1_e.getText().toString().trim();
+                String da2_s = d1_s.getText().toString().trim();
+                String da2_e = d1_e.getText().toString().trim();
+                String da3_s = d1_s.getText().toString().trim();
+                String da3_e = d1_e.getText().toString().trim();
+                String da4_s = d1_s.getText().toString().trim();
+                String da4_e = d1_e.getText().toString().trim();
+                String da5_s = d1_s.getText().toString().trim();
+                String da5_e = d1_e.getText().toString().trim();
 
 //                String sessionId = getIntent().getStringExtra("KEY_ID");
                 int img=0;
@@ -98,7 +108,7 @@ public class Owner extends AppCompatActivity {
                 String id = databaseOwner.push().getKey();
 //                (String di, String name, String filed, int profilePic, String phone, String city, String address)
 
-                Profile pro = new Profile(id_, busn, fld,img , pon,cty,adrs);
+                Profile pro = new Profile(id_, busn, fld, img , pon, cty, adrs, da1_s, da1_e ,da2_s, da2_e, da3_s, da3_e,da4_s,da4_e ,da5_s,da5_e);
 //                Profile pro = new Profile(id_, busn, fld, R.drawable.grip, pon,cty,adrs);
 
                 databaseOwner.child(id).setValue(pro);
